@@ -2,6 +2,7 @@ import React from 'react'
 // Import project images
 import WordleClone from '../assets/wordleClone.png'
 import NasaApod from '../assets/nasaapod-new.png'
+import Stlr from '../assets/stlr.png'
 
 const Work = () => {
   return (
@@ -39,13 +40,31 @@ const Work = () => {
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                NASA APOD
+                                STLR
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://visionary-boba-b2194c.netlify.app/" rel="noreferrer" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/BrianTheSimmons/NASA-APOD-New" rel="noreferrer" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+
+                {/* Grid Item */}
+                <div style={{backgroundImage: `url(${Stlr})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                    {/* Hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                NASA APOD
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://stlr-bsimmons.netlify.app/" rel="noreferrer" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/BrianTheSimmons/Stlr" rel="noreferrer" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
