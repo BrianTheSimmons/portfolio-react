@@ -11,7 +11,7 @@ const Home = () => {
             <p className='text-[#dc3c4d]'>Hi, I'm</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Brian</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Developer</h2>
-            <p className='text-[#8892b0] py-4 max-w-[715px]'>And I love to build things! But what do I love more than that? Learning! especially when I get to learn new things WHILE building. Take a look at some of my work to see what I've learned so far!</p>
+            <p className='text-[#8892b0] py-4 max-w-[715px]'>I love to build things, but more than that, I enjoy the opportunity to learn. When faced with the possibility of combining the two, I believe, is when the most fulfilling outcomes are created.</p>
             <div>
                   <Link to="work" smooth={true} duration={500} >
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#dc3c4d] hover:border-[#dc3c4d]'>
